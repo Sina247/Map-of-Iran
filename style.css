@@ -1,0 +1,55 @@
+body {
+  background-color: #2c1a47;
+}
+
+.iran-map {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.iran-map svg {
+  width: 100%;
+  height: auto;
+}
+
+.land.found {
+  fill: #6f2c91;
+  transition: fill 0.5s;
+}
+
+.land.found:hover {
+  transition: all 0.4s;
+  fill: #9b75b4 !important;
+}
+
+.iran-map svg .land {
+  fill-opacity: 1;
+  stroke: #fff;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+  transition: 0.3s;
+}
+
+.tooltip {
+  position: fixed;
+  background-color: rgba(45, 45, 45, 0.9);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  display: none;
+  font-size: 14px;
+  z-index: 1000;
+  white-space: nowrap;
+  max-width: 80vw;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .tooltip {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
