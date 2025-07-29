@@ -1,4 +1,4 @@
-# 🎯 Map of Iran
+# 👑 Map of Iran
 
 A clean and responsive SVG map of Iran, showcasing provinces with unique colors. Designed to provide interactive hover effects and tooltips using pure HTML and CSS. Perfect for educational sites, dashboards, and data visualization.
 
